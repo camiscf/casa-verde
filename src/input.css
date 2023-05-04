@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.font-elsie {
+    font-family: 'Elsie Swash Caps';
+}
+
+ul.custom-list {
+    --tw-border-opacity: 1;
+    list-style: none;
+    padding-left: 1.5rem;
+}
+ul.custom-list li:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background-color: #FFCB47;
+    border-radius: 50%;
+  }
+  
